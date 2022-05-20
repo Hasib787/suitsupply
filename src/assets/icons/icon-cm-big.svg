@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
+<path style="fill:#3E428C;" d="M854,147l-53,53c77,77,125,183,125,301c0,117-48,224-125,301l52,53C1047,659,1048,342,854,147z"/>
+<path style="fill:#369E27;" d="M500,75c117,0,223,47,300,124l53-53C658-49,342-48,147,147l53,53C276,122,383,75,500,75z"/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="500" y1="752" x2="1000" y2="752" gradientTransform="matrix(1 0 0 -1 0 1002)">
+	<stop  offset="0" style="stop-color:#18941D"/>
+	<stop  offset="1" style="stop-color:#38318A"/>
+</linearGradient>
+<path style="fill:url(#SVGID_1_);" d="M500,0v75c235,0,425,190,425,425h75C1000,224,776,0,500,0z"/>
+<path style="fill:#D8DD28;" d="M199,200l-53-53c-195,195-194,511,1,706l53-53C122,724,75,617,75,500S122,277,199,200z"/>
+<path style="fill:#F31316;" d="M500,925c-117,0-224-48-301-125l-53,53c195,194,512,194,707,0l-53-53C724,878,617,925,500,925z"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="0" y1="752" x2="500" y2="752" gradientTransform="matrix(1 0 0 -1 0 1002)">
+	<stop  offset="0" style="stop-color:#FFE600"/>
+	<stop  offset="1" style="stop-color:#18941D"/>
+</linearGradient>
+<path style="fill:url(#SVGID_2_);" d="M500,75V0C224,0,0,224,0,500h75C75,265,265,75,500,75z"/>
+<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="0" y1="252" x2="500" y2="252" gradientTransform="matrix(1 0 0 -1 0 1002)">
+	<stop  offset="0" style="stop-color:#FFE600"/>
+	<stop  offset="1" style="stop-color:#FF0000"/>
+</linearGradient>
+<path style="fill:url(#SVGID_3_);" d="M75,500H0c0,276,224,500,500,500v-75C265,925,75,735,75,500z"/>
+<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="500" y1="252" x2="1000" y2="252" gradientTransform="matrix(1 0 0 -1 0 1002)">
+	<stop  offset="0" style="stop-color:#FF0000"/>
+	<stop  offset="1" style="stop-color:#38318A"/>
+</linearGradient>
+<path style="fill:url(#SVGID_4_);" d="M925,500c0,235-190,425-425,425v75c276,0,500-224,500-500H925z"/>
+</svg>

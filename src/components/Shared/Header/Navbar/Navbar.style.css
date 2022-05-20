@@ -1,0 +1,43 @@
+.header_nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    width: 100%;
+    padding: 0 22px;
+    align-items: center;
+    color: black; 
+    background-color: hsl(0, 0%, 100%);
+    font-weight: 300;
+    border-bottom: 1px solid #e1e1e1;
+    transform: translateY(0);
+    transition: .3s ease-in-out;
+    z-index: 1;  
+}
+.navbar_hidden{
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-55px);
+    transition: .3s ease-in-out;
+}
+
+
+.headerLogo{
+    width: 150px;
+    top: 15px;
+    padding: 5px 10px;
+    display: block;
+}
+.headerLogo img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.nav_link span{
+    color: black;
+    cursor: pointer;
+    font-size: 22px;
+}
+.nav_link span:hover{
+    color: gainsboro;
+}
