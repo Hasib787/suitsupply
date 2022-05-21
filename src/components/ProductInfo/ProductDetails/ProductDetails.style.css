@@ -1,0 +1,67 @@
+a{
+    text-decoration: none;
+}
+.bookmark{
+    font-size: 14px;
+    font-weight: 300;
+    background-color: white;
+    padding: 13px 17px 12px;
+    border: 1px solid #e1e1e1;
+    transition: .2s ease-in-out;
+    border-radius:3px;
+    margin-right: 5px;
+}
+.bookmark:hover{
+    border-color: #898989;
+}
+.select_size{
+    width: 80%;
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+    background-color: #2d2e2c;
+    padding: 13px 17px 12px;
+    border: 1px solid #2d2e2c;
+    transition: .2s ease-in-out;
+    border-radius:3px;
+    margin-right: 5px;
+}
+.select_size:hover{
+    background-color: black;
+}
+.customizeBtn{
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #2d2e2c;
+    background-color: white;
+    padding: 12px 166px;
+    border: 1px solid #e1e1e1;
+    transition: .2s ease-in-out;
+    border-radius:4px;
+}
+.customizeBtn:hover .customize_icon{
+    transform: rotate(360deg);
+} 
+.customizeBtn:hover{
+    border-color: #898989;
+    color: #2d2e2c;
+}
+
+.customize_icon{
+    width: 18px;
+    height: 18px;
+    margin-top: 2px;
+    margin-right: 5px;
+    background: url(https://cdn.suitsupply.com/image/upload/svg/icon-custom-made.svg) 50% no-repeat;
+    background-size: 18px 18px;
+    transition: transform .4s ease-out;
+    vertical-align: top;
+    display: inline-block;  
+}
+.customize_icon:hover{
+    
+}
