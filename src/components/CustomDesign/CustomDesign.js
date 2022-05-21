@@ -17,7 +17,7 @@ const CustomDesign = () => {
           <div className="col-md-6">
             <div className="item1">
               <div className="item1-image">
-                <img src={alterIcon} />
+                <img src={alterIcon} alt="alter Icon"/>
               </div>
 
               <div className="item1-text">

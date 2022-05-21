@@ -1,67 +1,127 @@
-a{
-    text-decoration: none;
+.pdDetails {
+  padding: 170px 50px 120px;
+
 }
-.bookmark{
-    font-size: 14px;
-    font-weight: 300;
-    background-color: white;
-    padding: 13px 17px 12px;
-    border: 1px solid #e1e1e1;
-    transition: .2s ease-in-out;
-    border-radius:3px;
-    margin-right: 5px;
+.product-name {
+  font-size: 20px;
+  line-height: 28px;
 }
-.bookmark:hover{
-    border-color: #898989;
+.fabric {
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 6px;
+  color: #898989;
 }
-.select_size{
-    width: 80%;
-    font-size: 14px;
-    color: white;
-    font-weight: 400;
-    background-color: #2d2e2c;
-    padding: 13px 17px 12px;
-    border: 1px solid #2d2e2c;
-    transition: .2s ease-in-out;
-    border-radius:3px;
-    margin-right: 5px;
+.price {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #2d2e2c;
 }
-.select_size:hover{
-    background-color: black;
+.description {
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 30px;
+  word-wrap: break-word;
 }
-.customizeBtn{
-    text-decoration: none;
-    display: inline-block;
-    align-items: center;
-    margin-top: 10px;
-    font-size: 14px;
-    font-weight: 400;
-    color: #2d2e2c;
-    background-color: white;
-    padding: 12px 166px;
-    border: 1px solid #e1e1e1;
-    transition: .2s ease-in-out;
-    border-radius:4px;
+.bookmark {
+  font-size: 14px;
+  font-weight: 300;
+  background-color: white;
+  padding: 13px 17px 12px;
+  border: 1px solid #e1e1e1;
+  transition: 0.2s ease-in-out;
+  border-radius: 3px;
+  margin-right: 5px;
 }
-.customizeBtn:hover .customize_icon{
-    transform: rotate(360deg);
-} 
-.customizeBtn:hover{
-    border-color: #898989;
-    color: #2d2e2c;
+.bookmark:hover {
+  border-color: #898989;
+}
+.select_size {
+  width: 80%;
+  font-size: 14px;
+  color: white;
+  font-weight: 400;
+  background-color: #2d2e2c;
+  padding: 13px 17px 12px;
+  border: 1px solid #2d2e2c;
+  transition: 0.2s ease-in-out;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+.select_size:hover {
+  background-color: black;
+}
+.customizeBtn {
+  text-decoration: none;
+  display: inline-block;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #2d2e2c;
+  background-color: white;
+  padding: 12px 124px;
+  border: 1px solid #e1e1e1;
+  transition: 0.2s ease-in-out;
+  border-radius: 4px;
+}
+.customizeBtn:hover .customize_icon {
+  transform: rotate(360deg);
+}
+.customizeBtn:hover {
+  border-color: #898989;
+  color: #2d2e2c;
+}
+.customize_icon {
+  width: 18px;
+  height: 18px;
+  margin-top: 2px;
+  margin-right: 5px;
+  background: url(https://cdn.suitsupply.com/image/upload/svg/icon-custom-made.svg)
+    50% no-repeat;
+  background-size: 18px 18px;
+  transition: transform 0.4s ease-out;
+  vertical-align: top;
+  display: inline-block;
+}
+.accordion{
+  margin-top: 14px;
+}
+.accordion-item {
+  border: none !important;
+}
+.accordion-button{
+  font-size: 14px !important;
+  color: #898989 !important;
+  padding: 0.4rem 1rem !important;
+}
+.accordion-button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.accordion-button:not(.collapsed) {
+  color: #898989 !important;
+  background-color: transparent !important;
+  box-shadow: inset 0 -1px 0 transparent !important;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../../../assets/icons/up.svg") !important;
+  transform: rotate(0deg) !important;
 }
 
-.customize_icon{
-    width: 18px;
-    height: 18px;
-    margin-top: 2px;
-    margin-right: 5px;
-    background: url(https://cdn.suitsupply.com/image/upload/svg/icon-custom-made.svg) 50% no-repeat;
-    background-size: 18px 18px;
-    transition: transform .4s ease-out;
-    vertical-align: top;
-    display: inline-block;  
+.accordion-button::after {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: auto;
+  content: "";
+  background-image: url("../../../assets/icons/down.svg") !important;
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  transition: transform 0.2s ease-in-out;
 }
-.customize_icon:hover{
-    
+.font15{
+  font-size: 15px;
+  font-weight: 400;
 }

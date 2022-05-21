@@ -12,11 +12,9 @@ const Navbar = () => {
       const window = e.currentTarget;
       if (position > window.scrollY) {
         setNavbarHide(true);
-        console.log("scrolling up");
         navbarRef.current.className = "header_nav";
       } else if (position < window.scrollY) {
         setNavbarHide(false);
-        console.log("scrolling down");
         navbarRef.current.className = "navbar_hidden header_nav";
       }
       setPosition(window.scrollY);
@@ -55,7 +53,7 @@ const Navbar = () => {
             <span
               className="me-3"
             >
-              <i class="far fa-user"></i>
+              <i className="far fa-user"></i>
             </span>
           </a>
           <a
@@ -65,7 +63,7 @@ const Navbar = () => {
             rel="noreferrer"
           >
             <span>
-              <i class="far fa-bookmark"></i>
+              <i className="far fa-bookmark"></i>
             </span>
           </a>
           <a
