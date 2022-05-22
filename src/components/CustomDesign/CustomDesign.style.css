@@ -1,72 +1,77 @@
-.service-area{
-    margin-top: 150px;
+.service-area {
+  margin-top: 150px;
 }
-.section-services .service-title{
-    font-size: 30px;
+.section-services .service-title {
+  font-size: 30px;
 }
-.section-services .service-title strong{
-    font-size: 35px;
-    margin-bottom: 15px;
-}
-
-.item1 img{
-    width: 30px;
-    height: 30px;
-}
-.item2 img{
-    width: 25px;
-    height: 25px;
+.section-services .service-title strong {
+  font-size: 35px;
+  margin-bottom: 15px;
 }
 
-.container-fluid{
-    margin: 0 550px;
-    width: 800px;
-    text-align: center;
-    margin-top: 10px;
+.item1 img {
+  width: 30px;
+  height: 30px;
+}
+.item2 img {
+  width: 25px;
+  height: 25px;
 }
 
-.container-services{
-    display: flex;
-   
+.container-fluid {
+  margin: 0 550px;
+  width: 800px;
+  text-align: center;
+  margin-top: 10px;
 }
 
-.item1{
-    padding: 30px;
-    border-right: 1px solid #EFEFEF;
-}
-.item2{
-    padding: 30px;
+.container-services {
+  display: flex;
+  justify-content: center;
 }
 
-.item1-image img{
-    margin-bottom: 20px;
+.item1 {
+  padding: 30px;
+  border-right: 1px solid #efefef;
 }
-.item2-image img{
-    margin-bottom: 20px;
-}
-
-.item1-text h4{
-    font-size: 25px;
-    margin-bottom: 20px;
-}
-.item2-text h4{
-    font-size: 25px;
-    margin-bottom: 20px;
+.item2 {
+  padding: 30px;
 }
 
+.item1-image img {
+  margin-bottom: 20px;
+}
+.item2-image img {
+  margin-bottom: 20px;
+}
+
+.item1-text h4 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.item2-text h4 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
 
 @media only screen and (max-width: 650px) {
-    .container-fluid{
-        margin: 0 0 0 80px;
-        width: 480px;
-    }
+  .container-fluid {
+    margin: 0 0 0 80px;
+    padding-right: 0rem !important;
 
-    .section-services .service-title{
-        margin-left: 30px;
-    }
-
-    .item1{
-        border-right: none;
-        border-bottom: 1px solid #EFEFEF;
-    }
+  }
+  .section-services .service-title {
+    margin-left: 30px;
+  }
+  .circle {
+    padding-right: 0px !important;
+  }
+  .item1 {
+    border-right: none;
+    border-bottom: 1px solid #efefef;
+  }
+  .service-area{
+    margin-right: 0px;
+    padding: 0px;
+  }
 }

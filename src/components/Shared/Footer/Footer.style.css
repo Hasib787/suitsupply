@@ -1,0 +1,166 @@
+.footer-area {
+  margin-bottom: 100px;
+}
+.footer-header {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.fair-logo img {
+  width: 80px;
+  height: 40px;
+  margin-left: 500px;
+}
+
+.fair-logo-text h3 {
+  font-size: 25px;
+  padding: 10px 0 0 15px;
+}
+
+.footer-middle {
+  display: flex;
+  text-align: center;
+}
+
+.footer-middle .support ul {
+  padding-left: 0;
+}
+.support h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.support ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.support ul a {
+  text-decoration: none;
+  color: #6b6a6a;
+}
+.support ul a:hover {
+  text-decoration: none;
+  color: #c6c6d1;
+  transition: all 0.3s;
+}
+
+.contact h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+.contact ul li{
+    list-style: none;
+}
+.about h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-left: 23px;
+}
+
+.about ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.about ul a {
+  text-decoration: none;
+  color: #6b6a6a;
+}
+.about ul a:hover {
+  text-decoration: none;
+  color: #c6c6d1;
+  transition: all 0.3s;
+}
+
+.footer-bottom {
+  margin: 120px 0 50px 0;
+  text-align: center;
+}
+
+.footer-social-icons {
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    width: 248px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.social-link:hover {
+  border: 1px solid #a3a3a4;
+  transition: 0.3s;
+}
+
+.terms {
+  text-align: center;
+}
+
+.terms a {
+  text-decoration: none;
+  color: #6b6a6a;
+}
+
+.terms a:hover {
+  color: #a3a3a4;
+}
+.social-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 49px;
+    height: 49px;
+    border: 1px solid #e1e1e1;
+    border-radius: 50%;
+    transition: border-color .2s;
+}
+
+@media only screen and (max-width: 650px) {
+  .fair-logo {
+    width: 50%;
+  }
+  .footer-header {
+    display: flex;
+  }
+  .fair-logo img {
+    width: 60px;
+    height: 30px;
+    margin-left: 140px;
+  }
+  .fair-logo-text h3 {
+    font-size: 17px;
+  }
+
+  .footer-middle {
+    margin-left: 50px;
+  }
+  .support {
+    margin-right: 5px;
+  }
+  .contact {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .support h3 {
+    font-size: 15px;
+  }
+  .support ul li {
+    font-size: 14px;
+  }
+
+  .contact h3 {
+    font-size: 15px;
+  }
+
+  .contactNumber {
+    font-size: 14px;
+  }
+ 
+  .about h3 {
+    font-size: 15px;
+  }
+  .about ul li {
+    font-size: 14px;
+  }
+}

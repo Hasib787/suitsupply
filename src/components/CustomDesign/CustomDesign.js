@@ -5,8 +5,8 @@ import "./CustomDesign.style.css";
 
 const CustomDesign = () => {
   return (
-    <div className="service-area h-100 w-1280">
-      <div className="section-services text-center">
+    <div className="service-area">
+      <div className="section-services h-100 w-1280 text-center">
         <p className="service-title mb-5 px-2">
           Don’t just fit in,
           <br />
@@ -14,7 +14,7 @@ const CustomDesign = () => {
         </p>
 
         <div class="row container-fluid container-services px-5 px-sm-0">
-          <div className="col-md-6">
+          <div style={{paddingLeft:"27%"}} className="alter col-md-6">
             <div className="item1">
               <div className="item1-image">
                 <img src={alterIcon} alt="alter Icon"/>
@@ -29,10 +29,10 @@ const CustomDesign = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6">
+          <div style={{paddingRight:"30%"}} className="circle col-md-6">
             <div className="item2">
               <div className="item2-image">
-                <img src={circleIcon} alt="curcleIcon" />
+                <img src={circleIcon} alt="circleIcon" />
               </div>
 
               <div className="item2-text">

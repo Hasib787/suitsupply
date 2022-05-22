@@ -1,6 +1,5 @@
 .pdDetails {
-  padding: 170px 50px 120px;
-
+  padding: 80px 0 0 0;
 }
 .product-name {
   font-size: 20px;
@@ -25,6 +24,7 @@
   word-wrap: break-word;
 }
 .bookmark {
+  width: 16%;
   font-size: 14px;
   font-weight: 300;
   background-color: white;
@@ -38,21 +38,21 @@
   border-color: #898989;
 }
 .select_size {
-  width: 80%;
+  width: 82%;
   font-size: 14px;
   color: white;
   font-weight: 400;
   background-color: #2d2e2c;
-  padding: 13px 17px 12px;
+  padding: 12px 15px 12px 15px;
   border: 1px solid #2d2e2c;
   transition: 0.2s ease-in-out;
   border-radius: 3px;
-  margin-right: 5px;
 }
 .select_size:hover {
   background-color: black;
 }
 .customizeBtn {
+  width: 100%;
   text-decoration: none;
   display: inline-block;
   align-items: center;
@@ -85,13 +85,13 @@
   vertical-align: top;
   display: inline-block;
 }
-.accordion{
+.accordion {
   margin-top: 14px;
 }
 .accordion-item {
   border: none !important;
 }
-.accordion-button{
+.accordion-button {
   font-size: 14px !important;
   color: #898989 !important;
   padding: 0.4rem 1rem !important;
@@ -121,7 +121,12 @@
   background-size: 1.25rem;
   transition: transform 0.2s ease-in-out;
 }
-.font15{
+.font15 {
   font-size: 15px;
   font-weight: 400;
+}
+@media only screen and (max-width: 650px) {
+  .customizeBtn {
+    padding: 12px 0px;
+  }
 }

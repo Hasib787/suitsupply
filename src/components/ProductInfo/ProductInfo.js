@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import ProductDetails from "./ProductDetails/ProductDetails";
 import ProductImages from "./ProductImages/ProductImages";
 import productData from "../../Database";
+import './ProductInfo.style.css';
+
 const ProductInfo = () => {
   const [product, setProduct] = useState({});
   useEffect(() => {
@@ -9,12 +11,14 @@ const ProductInfo = () => {
   }, []);
 
   return (
-    <div style={{ position: "relative" }} className="row w-100">
-      <div className="col-md-7">
+    <div
+      className="row product-info"
+    >
+      <div className="col-md-7 product-images">
         <ProductImages images={product} />
       </div>
-      <div style={{ position: "relative" }} className="col-md-5">
-        <div  style={{ position: "absolute" }} >
+      <div style={{ position: "relative" }} className="product-details col-md-5">
+        <div style={{ position: "sticky", top: "70px" }}>
           <ProductDetails info={product} />
         </div>
       </div>
