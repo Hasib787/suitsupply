@@ -7,6 +7,7 @@ const Navbar = () => {
   const [position, setPosition] = useState(window.scrollY);
   const [navbarHide, setNavbarHide] = useState(true);
 
+  //Navbar show and hide on scroll function 
   const handleNavigation = useCallback(
     (e) => {
       const window = e.currentTarget;
@@ -50,9 +51,7 @@ const Navbar = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <span
-              className="me-3"
-            >
+            <span className="me-3">
               <i className="far fa-user"></i>
             </span>
           </a>
@@ -72,9 +71,7 @@ const Navbar = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <span
-              className="ms-3"
-            >
+            <span className="ms-3">
               <i class="fas fa-shopping-bag"></i>
             </span>
           </a>

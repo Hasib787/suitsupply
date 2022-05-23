@@ -2,6 +2,8 @@ import React from "react";
 import "./ProductDetails.style.css";
 
 const ProductDetails = ({ info }) => {
+
+  
   return (
     <div className="pdDetails w-75 m-auto">
       <h3 className="product-name">{info?.productName}</h3>
@@ -41,7 +43,6 @@ const ProductDetails = ({ info }) => {
           </div>
           <div className="offcanvas-body">...</div>
         </div>
-        {/* <button className="btn btn-primary">Toggle right offcanvas</button> */}
       </div>
       <div>
         <a
