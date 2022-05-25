@@ -2,8 +2,6 @@ import React from "react";
 import Slider from "react-slick";
 
 const ShopTheLook = ({ slider }) => {
-
-  console.log("slider", slider);
   var settings = {
     dots: false,
     arrow: true,
@@ -30,27 +28,28 @@ const ShopTheLook = ({ slider }) => {
 
   return (
     <div>
-      <ul style={{width: "98%"}}>
+      <ul style={{ width: "98%" }}>
         <Slider {...settings}>
-          {
-              slider?.slider1?.map((item, index) => {
-                return(
-                    <li key={index}>
-                        <div >
-                            <div >
-                                <img style={{width: "95%"}} src={item.img} alt={item.name} />
-                            </div>
-                            <div >
-                                <h3 >{item.name}</h3>
-                                <p>{item.price}</p>
-                                <p >{item.fabric}</p>
-                                
-                            </div>
-                        </div>
-                    </li>
-                )
-              })
-          }
+          {slider?.slider1?.map((item, index) => {
+            return (
+              <li key={index}>
+                <div>
+                  <div>
+                    <img
+                      style={{ width: "95%" }}
+                      src={item.img}
+                      alt={item.name}
+                    />
+                  </div>
+                  <div>
+                    <h3>{item.name}</h3>
+                    <p>{item.price}</p>
+                    <p>{item.fabric}</p>
+                  </div>
+                </div>
+              </li>
+            );
+          })}
           {/* End li */}
         </Slider>
       </ul>
