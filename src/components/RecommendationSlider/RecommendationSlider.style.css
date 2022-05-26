@@ -1,0 +1,27 @@
+.shop-the-look {
+  margin-top: 200px;
+}
+.you-might-also-like {
+  margin-top: 190px;
+}
+.header-text {
+  margin-bottom: 45px;
+  padding: 0px 90px;
+}
+.shop-text {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 600px) {
+    .shop-the-look {
+        margin-top: 0px;
+      }
+      .you-might-also-like{
+        margin-top: 50px;
+      }
+      .header-text {
+        padding: 0px 37px;
+      }
+  }

@@ -13,11 +13,11 @@ const CustomDesign = () => {
           <strong>find your own perfect fit</strong>
         </p>
 
-        <div class="row container-fluid container-services px-5 px-sm-0">
-          <div style={{paddingLeft:"27%"}} className="alter col-md-6">
+        <div className="row container-fluid container-services px-5 px-sm-0">
+          <div style={{ paddingLeft: "27%" }} className="alter col-md-6">
             <div className="item1">
               <div className="item1-image">
-                <img src={alterIcon} alt="alter Icon"/>
+                <img src={alterIcon} alt="alter Icon" />
               </div>
 
               <div className="item1-text">
@@ -29,7 +29,7 @@ const CustomDesign = () => {
               </div>
             </div>
           </div>
-          <div style={{paddingRight:"30%"}} className="circle col-md-6">
+          <div style={{ paddingRight: "30%" }} className="circle col-md-6">
             <div className="item2">
               <div className="item2-image">
                 <img src={circleIcon} alt="circleIcon" />

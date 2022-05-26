@@ -3,6 +3,9 @@
   position: relative;
   max-height: "max-content";
 }
+.product-details{
+  margin-bottom: 8rem;
+}
 @media only screen and (max-width: 650px) {
   .product-info {
     width: fit-content;

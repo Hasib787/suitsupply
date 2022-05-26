@@ -1,51 +1,77 @@
-import React from 'react';
+import React from "react";
 import Slider from "react-slick";
+import './YouMightAlsoLike.style.css';
 
-const YouMightAlsoLike = ({slider}) => {
+const YouMightAlsoLike = ({ slider }) => {
+  var settings = {
+    dots: false,
+    arrow: true,
+    infinite: true,
+    speed: 800,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    autoplay: false,
+    draggable: false,
+    responsive: [
+      {
+        breakpoint: 575,
+        settings: {
+          slidesToShow: 1,
+          arrow: false,
+          autoplay: true,
+          draggable: true,
+          speed: 500,
+          dots: false,
+        },
+      },
+    ],
+  };
 
-    var settings = {
-        dots: false,
-        arrow: true,
-        infinite: true,
-        speed: 800,
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        autoplay: false,
-        draggable: false,
-        responsive: [
-          {
-            breakpoint: 575,
-            settings: {
-              slidesToShow: 1,
-              arrow: false,
-              autoplay: true,
-              draggable: true,
-              speed: 500,
-              dots: true,
-            },
-          },
-        ],
-      };
-
-    return (
-        <div>
-            <ul style={{ width: "98%" }}>
+  return (
+    <div className="youAlsoLikeMain">
+      <ul style={{ width: "98%" }}>
         <Slider {...settings}>
           {slider?.slider2?.map((item, index) => {
             return (
               <li key={index}>
                 <div>
-                  <div>
+                  <picture style={{ boxSizing: "border-box" }}>
                     <img
-                      style={{ width: "95%" }}
+                      className="slider-image"
                       src={item.img}
                       alt={item.name}
                     />
-                  </div>
-                  <div>
-                    <h3>{item.name}</h3>
-                    <p>{item.price}</p>
-                    <p>{item.fabric}</p>
+                  </picture>
+                  <div style={{ padding: "25px 35px 0 30px" }}>
+                    <div className="d-flex justify-content-between">
+                      <h3
+                        style={{
+                          color: "#2d2e2c",
+                          fontSize: "14px",
+                          fontWeight: "400",
+                        }}
+                      >
+                        {item.name}
+                      </h3>
+                      <span>
+                        <i
+                          style={{ fontSize: "15px" }}
+                          className="far fa-bookmark"
+                        ></i>
+                      </span>
+                    </div>
+                    <span
+                      style={{
+                        color: "#2d2e2c",
+                        fontWeight: "500",
+                        marginBottom: "0 !important",
+                      }}
+                    >
+                      {item.price}
+                    </span>
+                    <p style={{ fontSize: "12px", color: "#898989" }}>
+                      {item.fabric}
+                    </p>
                   </div>
                 </div>
               </li>
@@ -54,8 +80,8 @@ const YouMightAlsoLike = ({slider}) => {
           {/* End li */}
         </Slider>
       </ul>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default YouMightAlsoLike;

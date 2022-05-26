@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
+import "./ShopTheLook.style.css";
 
 const ShopTheLook = ({ slider }) => {
   var settings = {
@@ -20,31 +21,54 @@ const ShopTheLook = ({ slider }) => {
           autoplay: true,
           draggable: true,
           speed: 500,
-          dots: true,
+          dots: false,
         },
       },
     ],
   };
 
+
   return (
-    <div>
+    <div className="shopLookMain">
       <ul style={{ width: "98%" }}>
         <Slider {...settings}>
           {slider?.slider1?.map((item, index) => {
             return (
               <li key={index}>
                 <div>
-                  <div>
-                    <img
-                      style={{ width: "95%" }}
+                  <picture style={{ boxSizing: "border-box" }}>
+                    <img className="slider-image"
                       src={item.img}
                       alt={item.name}
                     />
-                  </div>
-                  <div>
-                    <h3>{item.name}</h3>
-                    <p>{item.price}</p>
-                    <p>{item.fabric}</p>
+                  </picture>
+                  <div style={{ padding: "25px 35px 0 30px" }}>
+                    <div className="d-flex justify-content-between">
+                      <h3
+                        style={{
+                          color: "#2d2e2c",
+                          fontSize: "14px",
+                          fontWeight: "400",
+                        }}
+                      >
+                        {item.name}
+                      </h3>
+                      <span>
+                        <i style={{fontSize:"15px"}} className="far fa-bookmark"></i>
+                      </span>
+                    </div>
+                    <span
+                    style={{
+                      color: "#2d2e2c",
+                      fontWeight: "500",
+                      marginBottom: "0 !important",
+                    }}
+                    >
+                      {item.price}
+                    </span>
+                    <p style={{ fontSize: "12px", color: "#898989" }}>
+                      {item.fabric}
+                    </p>
                   </div>
                 </div>
               </li>

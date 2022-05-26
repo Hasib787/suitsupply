@@ -2,8 +2,6 @@ import React from "react";
 import "./ProductDetails.style.css";
 
 const ProductDetails = ({ info }) => {
-
-  
   return (
     <div className="pdDetails w-75 m-auto">
       <h3 className="product-name">{info?.productName}</h3>

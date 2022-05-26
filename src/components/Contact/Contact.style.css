@@ -15,11 +15,17 @@
 
 .subscribe-form input {
   border: none;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #d1d1d1;
   width: 25%;
 }
+.email {
+  text-align: center;
+}
+.email:focus-visible{
+  outline: none;
+}
 @media only screen and (max-width: 650px) {
-    .email{
-        width: 55%;
-    }
+  .email {
+    width: 55% !important;
+  }
 }
